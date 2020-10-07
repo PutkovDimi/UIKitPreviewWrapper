@@ -68,13 +68,10 @@
 		8348D94A252E1051008A8881 /* UIKitPreviewWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				8348D974252E4F13008A8881 /* UIElementRepresentable */,
-				8348D96A252E4949008A8881 /* XIBView */,
-				8348D960252E10B1008A8881 /* Previewable */,
+				8348D989252E5876008A8881 /* Examples */,
+				8348D983252E57CE008A8881 /* UIElementRepresentable */,
+				8348D982252E57B6008A8881 /* Previewable */,
 				8348D94B252E1051008A8881 /* AppDelegate.swift */,
-				8348D94F252E1051008A8881 /* ViewController.swift */,
-				8348D966252E47EB008A8881 /* StoryboardViewController.swift */,
-				8348D951252E1051008A8881 /* Main.storyboard */,
 				8348D954252E1055008A8881 /* Assets.xcassets */,
 				8348D956252E1055008A8881 /* LaunchScreen.storyboard */,
 				8348D959252E1055008A8881 /* Info.plist */,
@@ -82,31 +79,58 @@
 			path = UIKitPreviewWrapper;
 			sourceTree = "<group>";
 		};
-		8348D960252E10B1008A8881 /* Previewable */ = {
+		8348D982252E57B6008A8881 /* Previewable */ = {
 			isa = PBXGroup;
 			children = (
 				8348D97B252E5016008A8881 /* Previewable.swift */,
 				8348D978252E4FCE008A8881 /* PreviewableView.swift */,
 				8348D961252E10DB008A8881 /* PreviewableViewController.swift */,
 			);
-			name = Previewable;
+			path = Previewable;
 			sourceTree = "<group>";
 		};
-		8348D96A252E4949008A8881 /* XIBView */ = {
+		8348D983252E57CE008A8881 /* UIElementRepresentable */ = {
+			isa = PBXGroup;
+			children = (
+				8348D975252E4F38008A8881 /* UIElementRepresentable.swift */,
+			);
+			path = UIElementRepresentable;
+			sourceTree = "<group>";
+		};
+		8348D984252E57D9008A8881 /* XIBViewPreviewExample */ = {
 			isa = PBXGroup;
 			children = (
 				8348D96B252E4960008A8881 /* XIBView.xib */,
 				8348D96E252E496D008A8881 /* XIBView.swift */,
 			);
-			name = XIBView;
+			path = XIBViewPreviewExample;
 			sourceTree = "<group>";
 		};
-		8348D974252E4F13008A8881 /* UIElementRepresentable */ = {
+		8348D985252E57F5008A8881 /* StoryboardVCExample */ = {
 			isa = PBXGroup;
 			children = (
-				8348D975252E4F38008A8881 /* UIElementRepresentable.swift */,
+				8348D966252E47EB008A8881 /* StoryboardViewController.swift */,
+				8348D951252E1051008A8881 /* Main.storyboard */,
 			);
-			name = UIElementRepresentable;
+			path = StoryboardVCExample;
+			sourceTree = "<group>";
+		};
+		8348D986252E5818008A8881 /* InCodeVCExample */ = {
+			isa = PBXGroup;
+			children = (
+				8348D94F252E1051008A8881 /* ViewController.swift */,
+			);
+			path = InCodeVCExample;
+			sourceTree = "<group>";
+		};
+		8348D989252E5876008A8881 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				8348D986252E5818008A8881 /* InCodeVCExample */,
+				8348D985252E57F5008A8881 /* StoryboardVCExample */,
+				8348D984252E57D9008A8881 /* XIBViewPreviewExample */,
+			);
+			path = Examples;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

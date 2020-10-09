@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ViewController: PreviewableViewController {
+final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .blue
@@ -19,7 +19,7 @@ final class ViewController: PreviewableViewController {
 import SwiftUI
 
 @available(iOS 13, *)
-struct ViewControllerPreview: PreviewProvider {
+struct ViewController_Preview: PreviewProvider {
     static var previews: some View {
         let viewController = ViewController()
         

@@ -7,14 +7,15 @@
 
 import UIKit
 
-final class StoryboardViewController: PreviewableViewController {
-}
+final class StoryboardViewController: UIViewController {}
+
+
 
 #if canImport(SwiftUI) && DEBUG
 import SwiftUI
 
 @available(iOS 13, *)
-struct StoryboardViewControllerPreview: PreviewProvider {
+struct StoryboardViewController_Preview: PreviewProvider {
     static var previews: some View {
         let vc = UIStoryboard(
             name: "Main",

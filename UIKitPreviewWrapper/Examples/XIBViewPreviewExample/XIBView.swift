@@ -7,14 +7,13 @@
 
 import UIKit
 
-final class XIBView: PreviewableView {
-}
+final class XIBView: UIView {}
 
 #if canImport(SwiftUI) && DEBUG
 import SwiftUI
 
 @available(iOS 13, *)
-struct XIBViewPreview: PreviewProvider {
+struct XIBView_Preview: PreviewProvider {
     static var previews: some View {
         let view = UINib(
             nibName: "XIBView",

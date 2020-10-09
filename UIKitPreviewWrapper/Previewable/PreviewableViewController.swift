@@ -8,8 +8,7 @@
 import SwiftUI
 
 
-open class PreviewableViewController: UIViewController,
-                                      Previewable {
+extension UIViewController: Previewable {
     @available(iOS 13.0, *)
     public func toPreview() -> some View {
         Preview(uiElement: self)
@@ -18,7 +17,7 @@ open class PreviewableViewController: UIViewController,
 
 // MARK: - Private
 
-private extension PreviewableViewController {
+private extension UIViewController {
     struct Preview: UIElementRepresentable,
                     UIViewControllerRepresentable {
         weak var uiElement: UIViewController?

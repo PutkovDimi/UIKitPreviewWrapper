@@ -1,20 +1,20 @@
 import UIKit
 
-final class __FILEBASENAME__: <#UI element#> {}
+final class ___FILEBASENAME___: <#UIParent#> {}
 
 
 #if canImport(SwiftUI) && DEBUG
 import SwiftUI
 
 @available(iOS 13, *)
-struct __FILEBASENAME___Preview: PreviewProvider {
+struct ___FILEBASENAME____Preview: PreviewProvider {
     static var previews: some View {
-        let previewableElement = <#element instance#>
+        let previewableElement = <#___FILEBASENAME___ instance#>
         
         return
             previewableElement
             .toPreview()
-            .environmentObject(viewController)
+            .environmentObject(previewableElement)
         
     }
 }

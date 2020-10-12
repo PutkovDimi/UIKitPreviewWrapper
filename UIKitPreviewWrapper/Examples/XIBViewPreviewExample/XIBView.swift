@@ -15,7 +15,7 @@ import SwiftUI
 @available(iOS 13, *)
 struct XIBView_Preview: PreviewProvider {
     static var previews: some View {
-        let view = UINib(
+        let previewableElement = UINib(
             nibName: "XIBView",
             bundle: nil
         )
@@ -27,9 +27,9 @@ struct XIBView_Preview: PreviewProvider {
         as! XIBView
         
         return
-            view
+            previewableElement
             .toPreview()
-            .environmentObject(view)
+            .environmentObject(previewableElement)
         
     }
 }

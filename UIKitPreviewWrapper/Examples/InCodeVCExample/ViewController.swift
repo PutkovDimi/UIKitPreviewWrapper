@@ -21,12 +21,12 @@ import SwiftUI
 @available(iOS 13, *)
 struct ViewController_Preview: PreviewProvider {
     static var previews: some View {
-        let viewController = ViewController()
+        let previewableElement = ViewController()
         
         return
-            viewController
+            previewableElement
             .toPreview()
-            .environmentObject(viewController)
+            .environmentObject(previewableElement)
         
     }
 }

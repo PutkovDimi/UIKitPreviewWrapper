@@ -15,7 +15,7 @@ import SwiftUI
 @available(iOS 13, *)
 struct &lt;#element name#&gt;_Preview: PreviewProvider {
     static var previews: some View {
-        let view = UINib(
+        let previewableElement = UINib(
             nibName: &lt;#nib name#&gt;,
             bundle: &lt;#bundle#&gt;
         )
@@ -27,9 +27,9 @@ struct &lt;#element name#&gt;_Preview: PreviewProvider {
         as! &lt;#element name#&gt;
         
         return
-            view
+            previewableElement
             .toPreview()
-            .environmentObject(view)
+            .environmentObject(previewableElement)
         
     }
 }
@@ -45,6 +45,6 @@ struct &lt;#element name#&gt;_Preview: PreviewProvider {
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

@@ -15,7 +15,7 @@ import SwiftUI
 @available(iOS 13, *)
 struct &lt;#element name#&gt;_Preview: PreviewProvider {
     static var previews: some View {
-        let vc = UIStoryboard(
+        let previewableElement = UIStoryboard(
             name: &lt;#storyboard name#&gt;,
             bundle: &lt;#bundle#&gt;
         ).instantiateViewController(
@@ -24,9 +24,9 @@ struct &lt;#element name#&gt;_Preview: PreviewProvider {
         as! &lt;#element name#&gt;
         
         return
-            vc
+            previewableElement
             .toPreview()
-            .environmentObject(vc)
+            .environmentObject(previewableElement)
         
     }
 }

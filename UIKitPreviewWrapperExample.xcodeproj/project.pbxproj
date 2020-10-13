@@ -22,7 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8348D948252E1051008A8881 /* UIKitPreviewWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitPreviewWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8348D948252E1051008A8881 /* UIKitPreviewWrapperExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitPreviewWrapperExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8348D94B252E1051008A8881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8348D94F252E1051008A8881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8348D952252E1051008A8881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		8348D949252E1051008A8881 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8348D948252E1051008A8881 /* UIKitPreviewWrapper.app */,
+				8348D948252E1051008A8881 /* UIKitPreviewWrapperExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8348D947252E1051008A8881 /* UIKitPreviewWrapper */ = {
+		8348D947252E1051008A8881 /* UIKitPreviewWrapperExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8348D95C252E1055008A8881 /* Build configuration list for PBXNativeTarget "UIKitPreviewWrapper" */;
+			buildConfigurationList = 8348D95C252E1055008A8881 /* Build configuration list for PBXNativeTarget "UIKitPreviewWrapperExample" */;
 			buildPhases = (
 				8348D944252E1051008A8881 /* Sources */,
 				8348D945252E1051008A8881 /* Frameworks */,
@@ -148,9 +148,9 @@
 			);
 			dependencies = (
 			);
-			name = UIKitPreviewWrapper;
+			name = UIKitPreviewWrapperExample;
 			productName = UIKitPreviewWrapper;
-			productReference = 8348D948252E1051008A8881 /* UIKitPreviewWrapper.app */;
+			productReference = 8348D948252E1051008A8881 /* UIKitPreviewWrapperExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +167,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8348D943252E1051008A8881 /* Build configuration list for PBXProject "UIKitPreviewWrapper" */;
+			buildConfigurationList = 8348D943252E1051008A8881 /* Build configuration list for PBXProject "UIKitPreviewWrapperExample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -180,7 +180,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8348D947252E1051008A8881 /* UIKitPreviewWrapper */,
+				8348D947252E1051008A8881 /* UIKitPreviewWrapperExample */,
 			);
 		};
 /* End PBXProject section */
@@ -394,7 +394,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8348D943252E1051008A8881 /* Build configuration list for PBXProject "UIKitPreviewWrapper" */ = {
+		8348D943252E1051008A8881 /* Build configuration list for PBXProject "UIKitPreviewWrapperExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8348D95A252E1055008A8881 /* Debug */,
@@ -403,7 +403,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8348D95C252E1055008A8881 /* Build configuration list for PBXNativeTarget "UIKitPreviewWrapper" */ = {
+		8348D95C252E1055008A8881 /* Build configuration list for PBXNativeTarget "UIKitPreviewWrapperExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8348D95D252E1055008A8881 /* Debug */,

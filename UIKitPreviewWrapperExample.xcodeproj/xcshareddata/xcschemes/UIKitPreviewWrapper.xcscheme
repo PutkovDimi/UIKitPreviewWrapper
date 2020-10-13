@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8348D947252E1051008A8881"
-               BuildableName = "UIKitPreviewWrapper.app"
-               BlueprintName = "UIKitPreviewWrapper"
-               ReferencedContainer = "container:UIKitPreviewWrapper.xcodeproj">
+               BuildableName = "UIKitPreviewWrapperExample.app"
+               BlueprintName = "UIKitPreviewWrapperExample"
+               ReferencedContainer = "container:UIKitPreviewWrapperExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8348D947252E1051008A8881"
-            BuildableName = "UIKitPreviewWrapper.app"
-            BlueprintName = "UIKitPreviewWrapper"
-            ReferencedContainer = "container:UIKitPreviewWrapper.xcodeproj">
+            BuildableName = "UIKitPreviewWrapperExample.app"
+            BlueprintName = "UIKitPreviewWrapperExample"
+            ReferencedContainer = "container:UIKitPreviewWrapperExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8348D947252E1051008A8881"
-            BuildableName = "UIKitPreviewWrapper.app"
-            BlueprintName = "UIKitPreviewWrapper"
-            ReferencedContainer = "container:UIKitPreviewWrapper.xcodeproj">
+            BuildableName = "UIKitPreviewWrapperExample.app"
+            BlueprintName = "UIKitPreviewWrapperExample"
+            ReferencedContainer = "container:UIKitPreviewWrapperExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

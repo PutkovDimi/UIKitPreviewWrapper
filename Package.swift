@@ -16,6 +16,12 @@ let package = Package(
         .target(
             name: "UIKitPreviewWrapper",
             dependencies: [],
-            path: "Sources"),
+            path: "Sources",
+            exclude: [
+                "PreviewCodeSnippets",
+                "PreviewFileTemplates",
+                "scripts",
+                "Example"
+            ]),
     ]
 )

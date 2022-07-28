@@ -16,4 +16,4 @@ Now there are templates of files to create and code snippets to add previews for
 ⚠️ **Warning**: if your xcode is open, close it by `command + Q` shortcut and then reopen
 
 1. Use  *Shift + command + L* shortcut to open snippets screen
-2. Choose your own template depending on what's your way for ui crafting
+2. Choose your own template depending on what's your way for ui craftin
